@@ -52,7 +52,7 @@ const searchMovies = () => {
     alert("Veuillez saisir votre clé d'API afin de faire votre recherche")
   }
   const inputTitle = document.getElementById('findmovie').value;
-  let URL = `https://www.omdbapi.com/?apikey=${key}&s=${inputTitle}`;
+  let URL = `https://www.omdbapi.com/?apikey=${key}&s=${inputTitle}`; 
   fetch(URL)
     .then(response => response.json())
     .then(response => {
