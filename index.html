@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>FindMyMovie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img class="icons" src="./images/netflix.png" alt="navbar-brand">
+        <span class="ml-3 font-weight-bold">FindMyMovie</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="py-5 text-center text-dark bg-light">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="mx-auto col-lg-10">
+            <h1 class="display-4 mb-4 ">Bienvenue sur <span class="font-weight-bold"></span>FindMyMovie</span> !</h1>
+            <p class="lead mb-5">Trouves les informations de ton prochain film à regarder...</p>
+            <div class="d-flex justify-content-center mb-5">
+              <div class="searchbar">
+                <input class="search_input" type="text" name="" id="findmovie" placeholder="Rechercher...">
+                <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+            <button id="btn_search" class="btn btn-dark ml-5" type="submit">Rechercher <i class="fas fa-arrow-right ml-1"></i></button>
+            <button id="apikey" class="btn btn-secondary ml-3" type="submit">Fournir ma clé d'API <i class="fas fa-cog fa-spin ml-1"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="movie_informations m-5"></div>
+    </div>
+  </main>
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>    
+  <script src="index.js"></script>
+  <script src="intersection.js"></script>
+  <script src="typewriter.js"></script>
+
+</body>
+</html>
